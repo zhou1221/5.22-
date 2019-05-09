@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+      #box{
+          width: 400px;
+          height: 300px;
+          margin: 0 auto;
+          display: flex;
+          flex-direction:row;
+          font-size: 24px;
+          line-height: 100px;
+          text-align: center;
+      }
+      .left{
+          width: 33%;
+          height:300px ;
+          background: #ccc;;
+          display: flex;
+          flex-direction: column;
+      }
+      .right{
+          width: 33%;
+          height:300px ;
+          background: #ccc;;
+          display: flex;
+          flex-direction: column;
+      }
+      .main{
+          width: 33%;
+          height:300px ;
+          background: #ccc;
+          display: flex;
+          flex-direction: column;
+      }
+      .left-box{
+          width: 100%;
+          height:100px;
+          border: #fff 2px solid;
+
+      }
+      .main-box{
+          width: 100%;
+          height:100px;
+          border:  #fff 2px solid;
+
+      }
+      .right-box{
+          width: 100%;
+          height:100px;
+          border:  #fff 2px solid;
+
+      }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <div class="left">
+            <div class="left-box">奖品1</div>
+            <div class="left-box">奖品2</div>
+            <div class="left-box">奖品3</div>
+        </div>
+        <div class="main">
+            <div class="main-box">奖品4</div>
+            <div class="main-box" style="background: orangered;">开始抽奖</div>
+            <div class="main-box">奖品5</div>
+        </div>
+        <div class="right">
+            <div class="right-box">奖品6</div>
+            <div class="right-box">奖品7</div>
+            <div class="right-box">奖品8</div>
+        </div>
+    </div>
+</body>
+</html>
